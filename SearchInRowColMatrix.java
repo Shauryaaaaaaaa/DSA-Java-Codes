@@ -15,7 +15,7 @@ public class SearchInRowColMatrix {
         int r = 0;
         int c = matrix.length - 1;
 
-        while(r < matrix.length && c >= 0){ //here the colun will flow from last to the start ans the row will will flow from first to the last row.
+        while(r < matrix.length && c >= 0){ //here the colun will flow from last to the start ans the row will will flow from first to
             if(matrix[r][c] == target){
                 return new int[] {r,c};
             }
